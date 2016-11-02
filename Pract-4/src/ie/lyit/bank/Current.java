@@ -49,6 +49,7 @@ public class Current extends Account{
 		overdraftAmount = setOverdraftAmountTo;
 	}
   	
+	// added for the craic
 	// overdrawn() method to determine if balance is less than 0
 	public boolean overdrawn(){
 	   return(balance < 0.0);
